@@ -1,7 +1,6 @@
 {
   "window.commandCenter": false,
   "chat.commandCenter.enabled": false,
-
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.splitOnDragAndDrop": false,
   "workbench.statusBar.visible": false,
@@ -22,9 +21,6 @@
   "editor.scrollbar.verticalScrollbarSize": 4,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "diffEditor.renderSideBySide": true,
-
-  // Color customization
-  // https://coolors.co/282828-6c93bc-946fb3-a64e85-bc5557-e5ad52-a3c060-d6d6d6
   "workbench.colorTheme": "βui - Tomorrow Dark",
   "workbench.colorCustomizations": {
     "[βui - Tomorrow Dark]": {
@@ -48,7 +44,6 @@
   "editor.tokenColorCustomizations": {
     "[βui - Tomorrow Dark]": {
       "textMateRules": [
-        // Comments
         {
           "scope": ["comment", "punctuation.definition.comment"],
           "settings": {
@@ -56,8 +51,6 @@
             "fontStyle": ""
           }
         },
-
-        // Variables
         {
           "scope": ["variable", "variable.name"],
           "settings": {
@@ -71,7 +64,6 @@
             "fontStyle": ""
           }
         },
-
         {
           "scope": ["variable.other.constant"],
           "settings": {
@@ -87,16 +79,12 @@
           }
         },
         {
-          "scope": [
-            "string.template"
-          ],
+          "scope": ["string.template"],
           "settings": {
             "foreground": "#d6d6d6",
-            "fontStyle": "",
+            "fontStyle": ""
           }
         },
-
-        // Object properties
         {
           "scope": [
             "variable.other.property",
@@ -104,12 +92,10 @@
             "support.variable.property"
           ],
           "settings": {
-            //"foreground": "#a593c4",
             "foreground": "#d6d6d6",
             "fontStyle": ""
           }
         },
-
         {
           "scope": ["constant", "constant.other", "constant.character"],
           "settings": {
@@ -117,8 +103,6 @@
             "fontStyle": ""
           }
         },
-
-        // String interpolation
         {
           "scope": [
             "punctuation.definition.template-expression.begin.js",
@@ -131,8 +115,6 @@
             "fontStyle": ""
           }
         },
-
-        // HTML tags
         {
           "scope": ["entity.name.tag"],
           "settings": {
@@ -140,8 +122,6 @@
             "fontStyle": ""
           }
         },
-
-        // React components
         {
           "scope": ["entity.name.tag support.class.component"],
           "settings": {
@@ -149,8 +129,6 @@
             "fontStyle": ""
           }
         },
-
-        // HTML and React attributes
         {
           "scope": ["entity.other.attribute-name"],
           "settings": {
@@ -158,8 +136,6 @@
             "fontStyle": ""
           }
         },
-
-        // React braces and operators
         {
           "scope": [
             "punctuation.section.embedded.begin",
@@ -172,8 +148,6 @@
             "fontStyle": ""
           }
         },
-
-        // Functions
         {
           "scope": [
             "entity.name.function",
@@ -189,8 +163,6 @@
             "fontStyle": ""
           }
         },
-
-        // Reserved words
         {
           "scope": [
             "keyword",
@@ -202,16 +174,12 @@
             "fontStyle": ""
           }
         },
-
-        // Operators
         {
           "scope": ["keyword.operator", "punctuation.accessor."],
           "settings": {
             "foreground": "#BC5557"
           }
         },
-
-        // CSS-in-JS styles
         {
           "scope": [
             "punctuation.definition.keyword.scss",
@@ -224,7 +192,7 @@
         },
         {
           "scope": [
-            "meta.at-rule.media.scss".
+            "meta.at-rule.media.scss",
             "meta.property-value.css",
             "constant.numeric source.css",
             "support.constant.property-value.css",
@@ -235,8 +203,6 @@
             "fontStyle": ""
           }
         },
-
-        // Primitives: null, false, true, undefined, numbers
         {
           "scope": ["constant.language", "constant.numeric"],
           "settings": {
@@ -244,8 +210,6 @@
             "fontStyle": ""
           }
         },
-
-        // Primitives: strings
         {
           "scope": [
             "string",
@@ -263,16 +227,12 @@
             "fontStyle": ""
           }
         },
-
-        // Keywords: const, let, var
         {
           "scope": ["storage.type"],
           "settings": {
             "foreground": "#6c99bb"
           }
         },
-
-        // Blocks: brackets, braces, parens
         {
           "scope": [
             "meta.brace.round",
@@ -286,8 +246,6 @@
             "foreground": "#d6d6d6"
           }
         },
-
-        // Undo italics
         {
           "scope": [
             "storage.modifier",
@@ -302,10 +260,6 @@
       ]
     }
   },
-
-  // Customize the title bar and activity bar bg color options.
-  // Dark colors: https://coolors.co/262626-442d2b-3b2c31-322b36-212936-243031-283628-3e3823-413327
-  // Light colors: https://coolors.co/262626-c85247-c14971-904abc-3b70c5-42b6be-45be45-caab3c-c88041
   "peacock.favoriteColors": [
     {
       "name": "Red",
